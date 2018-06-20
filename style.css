@@ -1,0 +1,28 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background: lightgray;
+}
+
+.container{
+	background-color: #feeceb;
+	max-width: 1500px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 0 16px 16px;
+	margin: 0 auto;
+}
+
+.box{
+	background-color: #e8f6ff;
+	border: 2px solid #9bd8ff;
+	border-radius: 5px;
+	flex: 1 1 300px;
+	margin: 16px 16px 0 0;
+	padding: 1em;
+}
+
+.box:nth-child(odd){
+	background-color: #fdedde;
+	border: 2px solid #ffc289;
+}
